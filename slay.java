@@ -36,6 +36,15 @@ public class Asdfkljalksdfj {
         int arr[] ={3,60,35,2,45,320,5};  
         //use *STRING* arr2[] for the product name input
         String arr2[] = {"apple", "orange", "banana", "lotion", "hairspray", "crackers", "oil"};
+        
+        //add user input for ASCENDING, DESCENDING, and SEARCH
+                /* 
+                Menu should look like:
+                Hello! What would you like to do with the inventory?
+                1. Search for specific product.
+                2. Sort inventory in ascending order.
+                3. Sort inventory in descending order.
+                */
                  
                 System.out.println("Unsorted Products");  
                 for(int i=0; i < arr.length; i++){  
